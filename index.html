@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Makita DCM501</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+	<div class="background-texture"></div>
+
+	<header class="navbar">
+		<a href="#top" class="logo">
+			<img src="makita-logo.png" alt="Makita">
+		</a>
+
+		<button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+		<nav>
+			<a href="#caracteristicas">Características</a>
+			<a href="#funcionamiento">Funcionamiento</a>
+			<a href="#partes">Componentes</a>
+			<a href="#colores">Colores</a>
+			<a href="#cta-final">Comprar</a>
+			<a href="#faq">FAQ</a>
+			<a href="#contacto">Contacto</a>
+		</nav>
+	</header>
+
+	<main>
+
+		<section class="hero">
+			<div class="hero-visual" aria-hidden="true"></div>
+
+			<div class="hero-content">
+
+				<div class="hero-text">
+					<h1>
+						UNA CAFETERA<br>
+						<span class="highlight">TODO TERRENO</span>
+					</h1>
+
+					<p class="hero-model">
+						La cafetera portátil Makita DCM501 combina autonomía,
+						resistencia y practicidad para acompañarte donde sea que
+						estés.
+					</p>
+
+					<a href="https://www.makita.es/product/dcm501.html" target="_blank" class="cta">
+						CONOCER MÁS
+					</a>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="caracteristicas" class="features">
+			<h2 class="section-title reveal">Pensada para vos</h2>
+
+			<div class="features-grid">
+
+				<article class="feature reveal">
+					<div class="feature-icon">
+						<img src="compatibilidad.svg" loading="lazy" alt="Compatibilidad">
+					</div>
+					<h3>Compatibilidad</h3>
+					<p>Funciona con las mismas baterías que tus herramientas Makita</p>
+				</article>
+
+				<article class="feature reveal">
+					<div class="feature-icon">
+						<img src="obra-proof.svg" loading="lazy" alt="Obra-proof">
+					</div>
+					<h3>Obra-proof</h3>
+					<p>Pequeña, liviana, resistente y pensada para fácil transporte</p>
+				</article>
+
+				<article class="feature reveal">
+					<div class="feature-icon">
+						<img src="velocidad.svg" loading="lazy" alt="Velocidad">
+					</div>
+					<h3>Velocidad</h3>
+					<p>En 5 minutos tenés tu café caliente listo para disfrutar</p>
+				</article>
+
+			</div>
+		</section>
+
+		<section id="funcionamiento" class="steps-carousel">
+			<h2 class="section-title reveal">CÓMO FUNCIONA</h2>
+
+			<div class="carousel-wrapper">
+				<button class="carousel-arrow prev" aria-label="Anterior">‹</button>
+
+				<div class="carousel">
+					<div class="slide-media active"><img class="step1" src="paso1.png" alt="Cargar agua"></div>
+					<div class="slide-media"><img class="step2" src="paso2.png" alt="Agregá café"></div>
+					<div class="slide-media"><img class="step3" src="paso3.png" alt="Instalá la batería"></div>
+					<div class="slide-media"><img class="step4" src="paso4.png" alt="Disfrutá"></div>
+				</div>
+
+				<button class="carousel-arrow next" aria-label="Siguiente">›</button>
+			</div>
+
+			<div class="carousel-caption">
+				<div class="caption active">
+					<h3>1. Cargá agua</h3>
+					<p>Llená el depósito con agua limpia hasta el nivel indicado para asegurar un café perfecto.</p>
+				</div>
+				<div class="caption">
+					<h3>2. Agregá café</h3>
+					<p>Colocá tu café molido favorito en el portafiltro reutilizable original.</p>
+				</div>
+				<div class="caption">
+					<h3>3. Instalá la batería</h3>
+					<p>Conectá la batería Makita LXT en el compartimiento lateral y pulsá el botón de encendido.</p>
+				</div>
+				<div class="caption">
+					<h3>4. Disfrutá</h3>
+					<p>En apenas 5 minutos, tu café caliente está listo en la taza de acero original Makita.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="partes" class="exploded reveal">
+			<div class="exploded-wrapper">
+
+				<div class="exploded-left">
+					<div class="exploded-info">
+						<h2>CONOCELA<br>POR DENTRO</h2>
+					</div>
+
+					<div class="buttons-grid">
+						<button class="hotspot active" data-target="spec1" data-image="deposito.svg">Depósito de agua</button>
+						<button class="hotspot" data-target="spec2" data-image="cuchara.svg">Cuchara medidora</button>
+						<button class="hotspot" data-target="spec3" data-image="batería.svg">Batería LXT</button>
+						<button class="hotspot" data-target="spec4" data-image="filtro.svg">Filtro permanente</button>
+						<button class="hotspot" data-target="spec5" data-image="taza.svg">Taza inoxidable</button>
+					</div>
+
+					<div id="spec1" class="spec-box active">
+						Tanque extraíble de 240 ml. Permite cargar agua rápidamente y facilita la limpieza.
+					</div>
+
+					<div id="spec2" class="spec-box">
+						Dosificación precisa para preparar una taza sin desperdiciar.
+					</div>
+
+					<div id="spec3" class="spec-box">
+						Batería Makita 18V LXT utilizadas en herramientas profesionales.
+					</div>
+
+					<div id="spec4" class="spec-box">
+						De acero inoxidable y reutilizable. No requiere filtros descartables.
+					</div>
+
+					<div id="spec5" class="spec-box">
+						De acero inoxidable para conservar mejor la temperatura y con sistema de encastre perfecto en la cafetera.
+					</div>
+				</div>
+
+				<div class="parts-product">
+					<img id="partsImage" src="deposito.svg" class="exploded-product">
+				</div>
+
+			</div>
+		</section>
+
+		<section class="quote">
+			<video autoplay muted loop playsinline class="quote-video">
+				<source src="tu-video.mp4" type="video/mp4">
+				Tu navegador no soporta videos HTML5.
+			</video>
+
+			<div class="quote-overlay"></div>
+
+			<h2 class="quote-text">
+				TU CAFÉ LISTO<br>
+				EN CUALQUIER LUGAR
+			</h2>
+		</section>
+
+		<section id="colores" class="colors-section">
+			<div class="colors-container">
+
+				<div class="product-view">
+					<div class="thumb-rail">
+						<button class="thumb active" data-image="makita-azul.png">
+							<img src="makita-azul.png" alt="Vista frontal">
+						</button>
+						<button class="thumb" data-image="makita-azul-lateral.png">
+							<img src="makita-azul-lateral.png" alt="Vista lateral">
+						</button>
+						<button class="thumb" data-image="makita-azul-detalle.png">
+							<img src="makita-azul-detalle.png" alt="Detalle">
+						</button>
+					</div>
+
+					<div class="product-frame">
+						<img id="coffeeMachine" src="makita-azul.png" alt="Makita Azul">
+					</div>
+				</div>
+
+				<div class="color-selector">
+					<h2 class="section-title colors-title">
+						ELEGÍ LA QUE<br>
+						MÁS TE GUSTE
+					</h2>
+
+					<button class="color-option active" data-image="makita-azul.png">
+						<span class="color-swatch makita-blue"></span>
+						<span class="color-name">Azul Makita</span>
+					</button>
+
+					<button class="color-option" data-image="makita-bordo.png">
+						<span class="color-swatch makita-red"></span>
+						<span class="color-name">Rojo vino</span>
+					</button>
+
+					<button class="color-option" data-image="makita-verde.png">
+						<span class="color-swatch makita-green"></span>
+						<span class="color-name">Verde oliva</span>
+					</button>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="cta-final" class="final-cta">
+			<h2>
+				LISTA PARA TU<br>
+				PRÓXIMA JORNADA
+			</h2>
+
+			<a href="https://www.makita.com.ar" target="_blank" class="cta">
+				ENCONTRÁ TU DISTRIBUIDOR
+			</a>
+		</section>
+
+		<section id="faq" class="faq">
+			<h2 class="section-title reveal">Preguntas frecuentes</h2>
+
+			<div class="faq-list">
+				<div class="faq-item">
+					<button class="faq-question">
+						¿Cuánto dura la garantía de mis herramientas Makita?
+						<span class="faq-icon">+</span>
+					</button>
+					<div class="faq-answer">
+						<p>Las herramientas, baterías y cargadores de Litio-Ion de Makita cuentan con 3 años de garantía por defectos de fabricación desde la fecha de compra original. El resto de los productos Makita tiene 1 año de garantía de fábrica.</p>
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<button class="faq-question">
+						¿Dónde llevo mi cafetera si necesita mantenimiento o repuestos?
+						<span class="faq-icon">+</span>
+					</button>
+					<div class="faq-answer">
+						<p>Makita no realiza reparaciones de forma directa: hay que acudir a un service oficial. La red cuenta con más de 100 centros de servicio técnico con repuestos originales en todo el país.</p>
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<button class="faq-question">
+						¿Puedo hacer reparar mi producto en cualquier taller?
+						<span class="faq-icon">+</span>
+					</button>
+					<div class="faq-answer">
+						<p>No. Las reparaciones realizadas en centros no autorizados pueden invalidar la garantía. Para que se mantenga vigente, cualquier mantenimiento debe hacerse en un service oficial Makita.</p>
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<button class="faq-question">
+						¿Tengo que registrar el producto para tener garantía?
+						<span class="faq-icon">+</span>
+					</button>
+					<div class="faq-answer">
+						<p>Se recomienda registrar tu producto en el sitio oficial de Makita apenas lo compras: esto agiliza cualquier reclamo de garantía y deja guardado tu comprobante de compra dentro del sistema.</p>
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<button class="faq-question">
+						¿La batería de mi cafetera sirve para otras herramientas Makita?
+						<span class="faq-icon">+</span>
+					</button>
+					<div class="faq-answer">
+						<p>Sí. La DCM501 funciona con las mismas baterías 18V LXT que usan las herramientas inalámbricas de la marca, así que si ya tenés herramientas Makita, no necesitás comprar una batería aparte.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="contacto">
+			<div class="footer-brand">
+				<img src="makita-logo.png" alt="Makita" class="footer-logo-img">
+				<p class="footer-brand-text">
+					Herramientas profesionales inalámbricas. Innovación, resistencia
+					y compromiso con quienes trabajan todos los días.
+				</p>
+			</div>
+
+			<div class="footer-site">
+				<h4>SITIO OFICIAL</h4>
+				<a href="https://makita.com.ar" target="_blank" class="footer-link-simple">
+					makita.com.ar
+				</a>
+			</div>
+
+			<div class="footer-social-block">
+				<h4>REDES</h4>
+				<div class="footer-social-grid">
+					<a href="https://www.instagram.com/makita.ar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+							<rect x="3" y="3" width="18" height="18" rx="5"/>
+							<circle cx="12" cy="12" r="4.2"/>
+							<circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/>
+						</svg>
+					</a>
+					<a href="https://www.facebook.com/makita.ar/directory_links"_blank" aria-label="Facebook">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+							<path d="M15 8h-2c-1.1 0-2 .9-2 2v2H9v3h2v7h3v-7h2.2l.8-3H14v-1.5c0-.6.4-1 1-1h2V8Z"/>
+						</svg>
+					</a>
+					<a href="https://www.youtube.com/@makita.argentina" target="_blank" aria-label="YouTube">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+							<rect x="3" y="6" width="18" height="12" rx="4"/>
+							<path d="M10.5 9.5v5l4.5-2.5-4.5-2.5Z" fill="currentColor" stroke="none"/>
+						</svg>
+					</a>
+					<a href="https://www.linkedin.com/company/makita-argentina/" target="_blank" aria-label="LinkedIn">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+							<rect x="3" y="3" width="18" height="18" rx="3"/>
+							<line x1="7.5" y1="10" x2="7.5" y2="17"/>
+							<circle cx="7.5" cy="6.8" r="1" fill="currentColor" stroke="none"/>
+							<path d="M11.5 17v-4c0-1.4 1-2.3 2.2-2.3 1.2 0 1.8.9 1.8 2.3v4"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="footer-support-block">
+				<h4>SOPORTE</h4>
+				<div class="footer-support-links">
+					<a href="https://makita.com.ar/soporte/" target="_blank" class="footer-link-simple">
+						Tramitar garantía
+					</a>
+					<a href="https://makita.com.ar/contacto.php" target="_blank" class="footer-link-simple">
+						Contactar con Makita Argentina
+					</a>
+					<a href="https://makita.com.ar/novedad/visita-nuestros-services-oficiales/" target="_blank" class="footer-link-simple">
+						Services oficiales y devoluciones
+					</a>
+				</div>
+			</div>
+		</footer>
+
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
